@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="https://facebook.com">
+        <label for="fname">First Name:</label><br>
+        <input type="text" placeholder="First Name" required name="fname" id="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" id="lname"><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="" value="Male">Male
+        <input type="radio" name="gender" id="" value="Female">Female <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="bday">Birthday:</label>
+        <input type="date" name="bday" id="bday"><br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="10">Your address here</textarea><br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="Japan">Japan</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Thailand">Thailand</option>
+        </select><br>
+        <label for="foods">Favorite Foods:</label>
+        <input type="checkbox" name="food1" id="food1">
+        <label for="food1">Burger</label>
+        <input type="checkbox" name="food2" id="food2">
+        <label for="food2">Fries</label>
+        <input type="checkbox" name="food3" id="food3">
+        <label for="food3">Chicken</label><br>
+        <label for="photo">Upload a photo:</label>
+        <input type="file" name="photo" id="photo"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br>
+        <input type="reset" value="Reset">   <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
